@@ -6,7 +6,6 @@ import Table3 from "./components/Table3";
 import ImageMagnifier from "./components/ImageMagnifier";
 import Image from "/image.png";
 import data from "./output.json"
-import report from "/report.txt"
 const App = () => {
   const [zoom, setzoom] = useState(1)
   const [cords, setcords] =useState([])
