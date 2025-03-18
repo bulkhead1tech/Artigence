@@ -14,11 +14,7 @@ const App = () => {
   const sample = data.sample_type;
   const date =  data.date
 
-  const download =()=>{
-    const link = document.createElement("a");
-    link.href = report;
-    link.download = "report.txt";
-    link.click();   }
+ 
 useEffect(() => {
       const correctdata = data.inference_results.replace(/'/g, '"')
       const parsedData = JSON.parse(correctdata)
@@ -52,7 +48,8 @@ useEffect(() => {
 
       </div>
       <ImageMagnifier src={Image} height={535} width={1076} multiplyFactor={zoom} rectangles={cords} patient={patient} sample={sample}  className="h-4/5 w-full cursor-crosshair "  />
-       <button onClick={download} className="absolute right-20 bottom-10 px-4 py-2 text-white hover:bg-blue-900  rounded-lg cursor-pointer z-10 bg-blue-950">Report</button>
+       <button  className="absolute right-20 bottom-10 px-4 py-2 text-white hover:bg-blue-900  rounded-lg cursor-pointer z-10 bg-blue-950"><a href="/report.txt" download="report.txt">Report</a>
+       </button>
     </div>
   );
 };
