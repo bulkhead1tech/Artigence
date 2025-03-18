@@ -48,8 +48,7 @@ useEffect(() => {
 
       </div>
       <ImageMagnifier src={Image} height={535} width={1076} multiplyFactor={zoom} rectangles={cords} patient={patient} sample={sample}  className="h-4/5 w-full cursor-crosshair "  />
-       <button  className="absolute right-20 bottom-10 px-4 py-2 text-white hover:bg-blue-900  rounded-lg cursor-pointer z-10 bg-blue-950"><a href="/report.txt" download="report.txt">Report</a>
-       </button>
+     
     </div>
   );
 };
