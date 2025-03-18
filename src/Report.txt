@@ -1,0 +1,31 @@
+Patient ID: 7 | Date: 09/12/24 | Blood Type: Sample
+
+-------------------------------
+|            RBC             |
+-------------------------------
+| Type                   | Count | Percentage |
+|------------------------|-------|------------|
+| Angled Cells           |  222  | 67%        |
+| Borderline Ovalocytes  |   50  | 20%        |
+| Burr Cells             |   87  | 34%        |
+| Fragmented Cells       |    2  | 0.12%      |
+| Ovalocytes             |  N/A  | N/A        |
+| Rounded RBC            |  N/A  | N/A        |
+| Teardrops              |  N/A  | N/A        |
+
+-------------------------------
+|            WBC             |
+-------------------------------
+| Type          | Count | Percentage |
+|---------------|-------|------------|
+| Basophil      |  222  | 67%        |
+| Eosinophil    |   50  | 20%        |
+| Lymphocyte    |   87  | 34%        |
+| Monocyte      |    2  | 0.12%      |
+
+-------------------------------
+|         Platelets          |
+-------------------------------
+| Count       | Percentage    |
+|-------------|---------------|
+| 222         | 222%          |

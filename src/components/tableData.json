@@ -1,0 +1,65 @@
+{
+  "RBC": [
+    {
+      "Type": "Angled Cells",
+      "Count": 222,
+      "Percentage": "67%"
+    },
+    {
+      "Type": "Borderline Ovalocytes",
+      "Count": 50,
+      "Percentage": "20%"
+    },
+    {
+      "Type": "Burr Cells",
+      "Count": 87,
+      "Percentage": "34%"
+    },
+    {
+      "Type": "Fragmented Cells",
+      "Count": 2,
+      "Percentage": "0.12%"
+    },
+    {
+      "Type": "Ovalocytes",
+      "Count": null,
+      "Percentage": null
+    },
+    {
+      "Type": "Rounded RBC",
+      "Count": null,
+      "Percentage": null
+    },
+    {
+      "Type": "Teardrops",
+      "Count": null,
+      "Percentage": null
+    }
+  ],
+  "WBC": [
+    {
+      "Type": "Basophil",
+      "Count": 222,
+      "Percentage": "67%"
+    },
+    {
+      "Type": "Eosinophil",
+      "Count": 50,
+      "Percentage": "20%"
+    },
+    {
+      "Type": "Lymphocyte",
+      "Count": 87,
+      "Percentage": "34%"
+    },
+    {
+      "Type": "Monocyte",
+      "Count": 2,
+      "Percentage": "0.12%"
+    }
+  ],
+  "Platelets": {
+    "Count": 222,
+    "Percentage": "222%"
+  }
+}
